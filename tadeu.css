@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	height: 100%;
 	background: #ccc;
+	word-wrap:break-word;
 }
 
 .left {
@@ -65,24 +66,29 @@ header h2 {
 /*## END HEADER ##*/
 
 
-
+#content {
+	overflow:hidden;
+	padding-bottom: 10px;
+}
 
 #main-content {
 	padding-left: 2%;
 	max-width: 76%;
-	margin-bottom: 10px;
+	padding-bottom:32767px;
+	margin-bottom:-32767px;
 }
 
 #menu-lateral {
 	max-width: 20%;
-    overflow: hidden;
+	padding-bottom:32767px;
+	margin-bottom:-32767px;
+	background: #aaa;
 }
 
 #menu-lateral ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: #aaa;
 	font-weight: 700;
 }
 
