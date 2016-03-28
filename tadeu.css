@@ -23,13 +23,13 @@ body {
 /*## END GLOBAL ##*/
 
 
-/*## HEADER ##*/
-header .top {
+/*## div.header ##*/
+div.header .top {
 	padding: 10px 10px 0 10px;
 	background: #fff;
 }
 
-header h2 {
+div.header h2 {
 	margin: 0;
 }
 
@@ -63,7 +63,7 @@ header h2 {
 	background-color: #eee;
 	color: #444;
 }
-/*## END HEADER ##*/
+/*## END div.header ##*/
 
 
 #body-container {
@@ -124,7 +124,7 @@ header h2 {
 	background: #eee;
 }
 
-dd mark {
+dd span.mark {
 	background-color: inherit;
 	font-weight: 700;
 }
@@ -151,8 +151,8 @@ input[type="password"] {
 }
 
 
-/*## FOOTER ##*/
-footer {
+/*## div.footer ##*/
+div.footer {
 	background:#444;
 	color: #fff;
 	width: 100%;
@@ -161,11 +161,11 @@ footer {
 	position: absolute;
 }
 
-footer p {
+div.footer p {
 	text-align: center;
 	vertical-align: middle;
 	/*line-height: 50px;*/
 	padding: 1em;
 	margin: 0;
 }
-/*## END FOOTER ##*/
+/*## END div.footer ##*/
